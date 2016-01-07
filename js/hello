@@ -1,17 +1,7 @@
 #!/usr/bin/env node
 
-'use strict';
+'use strict'
 
-//console.log("hello world");
+console.log('Hello World');
 
-var c = require("skistak-colors");
-
-var out = process.stdout;
-
-//clear the screen by writing the specials clear color
-out.write(c.cl);
-
-while (true) {
-  out.write("Hello world\n");
-}
 
